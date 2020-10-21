@@ -1,0 +1,22 @@
+h1 {
+    font-family: "politica-expanded", sans-serif;
+    font-size: 50px;
+    margin-top: 150px;
+    text-align: center;
+ }
+ 
+ h3 {
+     font-family: "politica", sans-serif;
+     text-align: center;
+ }
+ 
+ 
+ 
+ .card {
+     margin: auto;
+     margin-top: 50px;
+ }
+ 
+ p {
+     text-align: center;
+ }
