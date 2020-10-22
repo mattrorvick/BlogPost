@@ -25,7 +25,17 @@ public class BlogPostController {
         return "blogpost/index";
     }
 
-    @PostMapping(value = "/")
+
+    @GetMapping(value = "/blogpost/new")
+    public String newBlog(BlogPost blogpost) {
+
+        return "blogpost/new";
+    }
+    
+
+
+
+    @PostMapping(value = "/blogpost")
     public String addNewBlogPost(BlogPost blogPost, Model model) {
 
 
