@@ -1,12 +1,12 @@
 h1 {
-    font-family: "politica-expanded", sans-serif;
+    font-family: "jubilat", serif;
     font-size: 50px;
     margin-top: 150px;
     text-align: center;
  }
  
  h3 {
-     font-family: "politica", sans-serif;
+     font-family: "", sans-serif;
      text-align: center;
  }
  
@@ -19,4 +19,28 @@ h1 {
  
  p {
      text-align: center;
+ }
+
+ #homebutton {
+     
+ }
+
+ .allblogpoststitle {
+    font-size: 30px;
+    text-align: left;
+    font-family: "politica", sans-serif;
+ }
+
+ .allblogpostsauthor {
+    font-size: 24px;
+    text-align: left;
+    font-family: voltage, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+ }
+
+ .allblogpostsentry {
+    font-size: 16px;
+    text-align: left;
+    
  }
