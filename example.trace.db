@@ -1,0 +1,18 @@
+2020-10-26 11:08:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "BLOG_ENTRY VARCHAR(1000)": "STRINGDECODE('Caused by: org.h2.jdbc.JdbcSQLDataException: Value too long for column \""BLOG_ENTRY VARCHAR(255)Caused by: org.h2.... (2404)"; SQL statement:
+update blog_post set author=?, blog_entry=?, title=? where id=? [22001-200]
+2020-10-26 11:09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "BLOG_ENTRY VARCHAR(1000)": "STRINGDECODE('Caused by: org.h2.jdbc.JdbcSQLDataException: Value too long for column \""BLOG_ENTRY VARCHAR(255)Caused by: org.h2.... (2197)"; SQL statement:
+update blog_post set author=?, blog_entry=?, title=? where id=? [22001-200]
+2020-10-26 11:09:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "BLOG_ENTRY VARCHAR(1000)": "STRINGDECODE('Caused by: org.h2.jdbc.JdbcSQLDataException: Value too long for column \""BLOG_ENTRY VARCHAR(255)Caused by: org.h2.... (2197)"; SQL statement:
+update blog_post set author=?, blog_entry=?, title=? where id=? [22001-200]
+2020-10-26 11:09:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "BLOG_ENTRY VARCHAR(1000)": "STRINGDECODE('This isn''t the first time Jennifer faced pregnancy rumors this year. It happened just last month after she shared... (1032)"; SQL statement:
+update blog_post set author=?, blog_entry=?, title=? where id=? [22001-200]
+2020-10-26 11:10:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "BLOG_ENTRY VARCHAR(1000)": "STRINGDECODE('This isn''t the first time Jennifer faced pregnancy rumors this year. It happened just last month after she shared... (1032)"; SQL statement:
+update blog_post set author=?, blog_entry=?, title=? where id=? [22001-200]
+2020-10-26 11:10:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "BLOG_ENTRY VARCHAR(1000)": "STRINGDECODE('This isn''t the first time Jennifer faced pregnancy rumors this year. It happened just last month after she shared... (1028)"; SQL statement:
+update blog_post set author=?, blog_entry=?, title=? where id=? [22001-200]
