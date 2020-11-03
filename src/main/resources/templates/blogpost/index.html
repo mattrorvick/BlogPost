@@ -48,6 +48,8 @@
 
                     <p th:text="${blog.blogEntry}" class="allblogpostsentry" />
 
+                    <hr>
+
                     <!-- Edit Button -->
                     <a th:href="@{/blogpost/update/{id}(id=${blog.id})}" class="btn btn-info col-md-3"
                         th:text="Edit">Edit</a>
