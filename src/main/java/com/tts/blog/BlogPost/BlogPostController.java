@@ -66,6 +66,7 @@ public class BlogPostController {
         model.addAttribute("title", blogPost.getTitle());
         model.addAttribute("author", blogPost.getAuthor());
         model.addAttribute("blogEntry", blogPost.getBlogEntry());
+        // model.addAttribute("tags", blogPost.getTags());
 
 
         return "blogpost/result";
@@ -107,6 +108,8 @@ public class BlogPostController {
         blogPostRepository.deleteById(id);
         return "redirect:/";
     }
+
+    
 
 
 
